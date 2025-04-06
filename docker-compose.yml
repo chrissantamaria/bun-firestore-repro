@@ -1,0 +1,6 @@
+services:
+  app:
+    image: oven/bun:1.2.8
+    command: bun start
+    volumes:
+      - .:/home/bun/app
